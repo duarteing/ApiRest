@@ -12,10 +12,10 @@ app.use(express.json());
 
 //routers
 app.get('/', (req, res) => {
-    res.send('este es el servidor hablando')
+    res.json({"title" : "Servicios de maching learning"})
 });
 
 //starting the server
 app.listen(4000, () => {
-    console.log('el servidor solo para pros esta disponible por el pueto 4000 estoy mejorando');
+    console.log('el xxx servidor solo para pros esta disponible por el pueto 4000 estoy mejorando');
 });
