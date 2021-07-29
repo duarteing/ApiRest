@@ -2,12 +2,9 @@ const { Router } = require('express');
 const router = Router();
 
 router.get('/test', (req, res) => {
-     const data = {
-         "usuario": "Luis",
-         "contraseña": "123"
-     };
+     const texto = "estoy  obteniendo datos por peticion GET";
 
-     res.json(data);
+     res.json(texto);
 });
 
 module.exports = router;

@@ -11,8 +11,10 @@ app.use(express.urlencoded({extended: false}))
 app.use(express.json());
 
 //routers
-app.use(require('./routes/index'))
-app.use(require('./routes/inicio'))
+app.use(require('./routes/get'))
+app.use(require('./routes/distributor'))
+app.use(require('./routes/post'))
+app.use(require('/routes/delete'))
 
 //starting the server
 app.listen(app.get('port'), () => {

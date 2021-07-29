@@ -1,22 +1,18 @@
 {
-    "marcadores": [
+    "distribuidor": [
       {
-        "latitude": 40.416875,
-        "longitude": -3.703308,
-        "city": "Madrid",
-        "description": "Puerta del Sol"
+        "id": "1",
+        "cedula": "90101030",
+       "nombre": "Alvaro",
+       "telefono": "70405010",
+       "correo": "alvaroga@hotmail.com"
       },
       {
-        "latitude": 40.417438,
-        "longitude": -3.693363,
-        "city": "Madrid",
-        "description": "Paseo del Prado"
-      },
-      {
-        "latitude": 40.407015,
-        "longitude": -3.691163,
-        "city": "Madrid",
-        "description": "Estación de Atocha"
+        "id": "2",
+        "cedula": "80804020",
+        "nombre": "Luis Carlos",
+       "telefono": "80102540",
+       "correo": "luisc@ladora.com"
       }
     ]
 }
