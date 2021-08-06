@@ -1,0 +1,18 @@
+{
+    "distribuidor": [
+      {
+        "id": "1",
+        "cedula": "90101030",
+       "nombre": "Alvaro",
+       "telefono": "70405010",
+       "correo": "alvaroga@hotmail.com"
+      },
+      {
+        "id": "2",
+        "cedula": "80804020",
+        "nombre": "Luis Carlos",
+       "telefono": "80102540",
+       "correo": "luisc@ladora.com"
+      }
+    ]
+}
